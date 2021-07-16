@@ -23,3 +23,8 @@ I recommend [sh-git-lfs-install-append](https://github.com/aiya000/sh-git-lfs-in
     - VRChat (Unity) projects may contain a lot of media type files. This includes those
     - text type files are not included
         - Please tell for me either if this is including text type files or that is not including necessary media type files
+
+## Tips
+### My project is broken after updating `.gitattributes` and migrating `git lfs migrate import --everything`
+
+`git lfs pull` may fix it.
