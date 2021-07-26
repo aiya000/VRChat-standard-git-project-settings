@@ -74,6 +74,11 @@ InitTestScene*.unity
 
 Temp/UnityLockfile
 
+#----------------------
+# VRChat specific files
+#----------------------
+
+# .../metadata is too big, but VRChat SDK saves something into there :(
 /[Ll]ibrary/*
 !/[Ll]ibrary/metadata
 !/[Ll]ibrary/assetDatabase3
