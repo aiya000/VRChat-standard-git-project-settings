@@ -72,8 +72,10 @@ InitTestScene*.unity
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
 
+Temp/UnityLockfile
+
 /[Ll]ibrary/*
 !/[Ll]ibrary/metadata
 !/[Ll]ibrary/assetDatabase3
 
-Temp/UnityLockfile
+Assets/SerializedUdonPrograms/*
