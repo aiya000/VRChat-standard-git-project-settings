@@ -72,12 +72,15 @@ InitTestScene*.unity
 
 # End of https://www.toptal.com/developers/gitignore/api/unity
 
+# Allows to git operations when progress
 Temp/UnityLockfile
 
 #----------------------
 # VRChat specific files
 #----------------------
 
+# NOTE: We have to know knowledge about this
+# NOTE: Please! > Clearly specifications about necessary and unnecessary files to decrease git tree size
 # .../metadata is too big, but VRChat SDK saves something into there :(
 /[Ll]ibrary/*
 !/[Ll]ibrary/metadata
